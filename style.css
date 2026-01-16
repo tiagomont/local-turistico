@@ -17,14 +17,17 @@ main {
 }
 
 h1 {
+    font-size: 2em;
     text-align: left;
     color: #2c3e50;
     margin: 48px 0 40px;
+    line-height: 35px;
 }
 
 .red-h1 {
     font-size: 16px;
     color: red;
+    text-transform: uppercase;
 }
 
 .desc-image {
@@ -42,4 +45,70 @@ figcaption {
     margin-top: 12px;
     font-style: italic;
     color: #555;
+}
+
+.text-info {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #444;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.list {
+    margin: 64px 0;
+}
+
+.images {
+    width: 100%;
+    max-height: 350px;
+    border-radius: 28px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-bottom: 12px;
+}
+
+.info-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 24px;
+
+}
+.text-list {
+    font-size: 16px;
+}
+
+.list-text {
+    font-size: 16px;
+    color: #2980b9;
+}
+
+.final-text {
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+}
+
+footer {
+    margin: 48px 0;
+}
+
+footer > p {
+    text-align: center;
+    color: #777;
+}
+
+footer a {
+    color: #494949;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
